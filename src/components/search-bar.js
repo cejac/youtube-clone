@@ -12,8 +12,8 @@ constructor(props){
 
   render() {
     return (
-      <div>
-        value={this.state.term}
+      <div className='search-bar'>
+        {this.state.term}
         <input
         value={this.state.term}
         onChange={event => this.setState({term: event.target.value})}/>
