@@ -10,6 +10,10 @@ const API_KEY = 'AIzaSyACSuChL7bC53ADju14Rt-zvKmRt07dMJo';
 
 //create a new component. This should produce some HTML
 class App extends Component {
+  //class based component vs functional component.
+  //class based whenever we want to concept of state in our component
+  //functional based component whenever we have a simple component that takes some number of props
+  //and returns some amount of static jsx
   constructor(props) {
     super(props);
 
